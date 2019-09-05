@@ -1,0 +1,8 @@
+#circle-viewer {
+    width: 350px;
+    height: 300px;
+    display: block;
+    border: #e0e0e0 1px solid;
+    z-index: 2500;
+    background-color: white;
+}

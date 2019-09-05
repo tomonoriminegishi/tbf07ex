@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "tbf07ex",
+    "description": "技術書典7サークルページ専用の拡張機能です。",
+    "version": "1.0",
+    "icons": {
+        "32": "32x32.png",
+        "48": "48x48.png",
+        "128": "128x128.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://techbookfest.org/event/tbf07/circle" ],
+        "js": ["jquery.min.js", "content_scripts.js"],
+        "css": ["content_scripts.css"]
+    }],
+    "background": {
+        "scripts": []
+    },
+    "browser_action": {
+        "default_icon": "32x32.png",
+        "default_title": "",
+        "default_popup": ""
+    },
+    "permissions": [
+        "tabs",
+        "background",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
