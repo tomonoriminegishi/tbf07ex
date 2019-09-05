@@ -24,7 +24,6 @@
     "permissions": [
         "tabs",
         "background",
-        "http://*/*",
-        "https://*/*"
+        "https://techbookfest.org/event/tbf07/circle"
     ]
 }
