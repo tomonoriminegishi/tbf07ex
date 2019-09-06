@@ -29,3 +29,6 @@ https://techbookfest.org/event/tbf07/circle
 
 どなたかアイコン作ってくれないかなぁ~
 
+## License
+
+MIT
